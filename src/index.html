@@ -7,31 +7,26 @@
     <link href="./output.css" rel="stylesheet">
 </head>
 <body>
-    <header class="flx justify-between">
-        <section>
-            <nav>
+    <header class="flex justify-between px-[5%] py-[30px]">
+        <section class="flex justify-between items-center gap-6">
+            <nav class="flex justify-between items-center gap-3 text-[12px] font-[500] leading-[14.63px]">
                 <p>Show</p>
-                <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                </select>
+                <div class="flex gap-1 p-[9px] bg-[#E0E0E0] rounded-lg">
+                    <p class=" ">10</p>
+                    <img src="./images/strelka_poyon.svg" alt="">
+                </div>
                 <p>entries</p>
             </nav>
-            <input type="text" placeholder="Search">
+            <div class="flex gap-2 w-[218px] items-center border-[1px] border-[#9E9E9E] p-[8px] rounded-lg">
+                <img src="./images/icons_search.svg" alt="">
+                <input type="text" placeholder="Search"  class="outline-none">
+            </div>
         </section>
-
+        
         <section>
-            <div class="flex items-center px-[12px] py-[8.5px] bg-[#624DE3] rounded-lg">
+            <div class="flex items-center px-[12px] py-[8.5px] bg-[#624DE3] rounded-lg  gap-2">
                 <img src="./images/+.svg" alt="">
-                <p>Add Customer</p>
+                <p class="text-white font-[700] ">Add Customer</p>
             </div>
         </section>
     </header>
