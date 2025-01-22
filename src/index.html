@@ -10,7 +10,7 @@
 
 <body>
 
-    <header class="flex justify-between px-[5%] py-[30px]">
+    <header class="flex justify-between py-[30px] max-w-[1210px] m-auto">
         <section class="flex justify-between items-center gap-6">
             <nav class="flex justify-between items-center gap-3 text-[12px] font-[500] leading-[14.63px]">
                 <p>Show</p>
@@ -36,20 +36,65 @@
 
     </header>
 
-    <section class="px-[5%]">
-        <table class="fflex justify-between">
-            <tr class="flex justify-between items-center">
-                <th class="px-10 py-2 text-left ">Tracking ID</th>
-                <th class="px-10 py-2 text-left col-span-2">Product</th>
-                <th class="px-10 py-2 text-left ">Customer</th>
-                <th class="px-10 py-2 text-left ">Date</th>
-                <th class="px-10 py-2 text-left ">Amount</th>
-                <th class="px-10 py-2 text-left ">Payment Mode</th>
-                <th class="px-10 py-2 text-left ">Status</th>
-                <th class="px-10 py-2 text-left  col-span-2">Action</th>
+    <!-- <section class="px-[5%]">
+        <table class="">
+            <tr class=" leading-[17px] text-[14px] ">
+                <th class="px-12 py-2 text-left ">Tracking ID</th>
+                <th class="px-12 py-2 text-left col-span-2">Product</th>
+                <th class="px-12 py-2 text-left ">Customer</th>
+                <th class="px-12 py-2 text-left ">Date</th>
+                <th class="px-12 py-2 text-left ">Amount</th>
+                <th class="px-12 py-2 text-left ">Payment Mode</th>
+                <th class="px-12 py-2 text-left ">Status</th>
+                <th class="px-12 py-2 text-left  col-span-2">Action</th>
+            </tr>
+
+            <tr class=" leading-[17px] text-[14px] ">
+                <td>#20462</td>
+                <td><img src="./images/1_hat.svg" alt=""></td>
+                <td>Hat</td>
+                <td>Matt Dickerson</td>
+                <td>13/05/2022</td>
+                <td>$4.95	</td>
+                <td>Tranfer Bank</td>
+                <td>Delivered</td>
+                <td> <img src="./images/edit.svg" alt=""></td>
+                <td> <img src="./images/delete.svg" alt=""></td>
             </tr>
         </table>
+    </section> -->
+
+    <section class="max-w-[1200px] m-auto">
+        <table class="min-w-full table-auto border-collapse border border-gray-300">
+                <tr class="leading-[17px] text-[14px] bg-gray-100">
+                    <th class="px-9 py-2">Tracking ID</th>
+                    <th class="px-9 py-2 text-left">Product</th>
+                    <th class="px-9 py-2 text-left">Customer</th>
+                    <th class="px-9 py-2 text-left">Date</th>
+                    <th class="px-9 py-2 text-start">Amount</th>
+                    <th class="px-9 py-2">Payment Mode</th>
+                    <th class="px-9 py-2">Status</th>
+                    <th class="px-9 py-2">Action</th>
+                </tr>
+           
+                <tr class="leading-[17px] text-[14px]">
+                    <td class="px-0 pl-12 py-2 border-b">#20462</td>
+                    <td class="px-4 pl-8 py-2 border-b flex items-center gap-2"><img src="./images/1_hat.svg" alt="Product Image">Hat</td>
+                    <td class="px-4 pl-8 py-2 border-b">Matt Dickerson</td>
+                    <td class="px-4 pl-8 py-2 border-b">13/05/2022</td>
+                    <td class="px-4 pl-10 py-2 border-b">$4.95</td>
+                    <td class="px-4 pl-11 py-2 border-b">Transfer Bank</td>
+                    <td class="px-4 pl-10 py-2 border-b">Delivered</td>
+                    <td class="px-4 pl-5 py-2 border-b">
+                        <img src="./images/edit.svg" alt="Edit" class="inline-block ml-[15px]">
+                        <img src="./images/delete.svg" alt="Delete" class="inline-block mx-1">
+                    </td>
+                </tr>
+        </table>
     </section>
+    
+    
+    
 
 </body>
 
